@@ -1,0 +1,158 @@
+<mxfile host="Electron" agent="Claude">
+  <diagram id="Secuencia" name="Secuencia">
+    <mxGraphModel dx="1493" dy="849" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1140" pageHeight="923" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="v3" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=12;fontStyle=1;verticalLabelPosition=bottom;verticalAlign=top;" value="Estudiante" vertex="1">
+          <mxGeometry height="56" width="30" x="95" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="v4" parent="1" style="shape=umlBoundary;whiteSpace=wrap;html=1;fontSize=12;fontStyle=1;verticalLabelPosition=bottom;verticalAlign=top;" value="PantallaEventos" vertex="1">
+          <mxGeometry height="44" width="60" x="280" y="56" as="geometry" />
+        </mxCell>
+        <mxCell id="v5" parent="1" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fontSize=12;fontStyle=1;verticalLabelPosition=bottom;verticalAlign=top;" value="CalcularDisponibilidad" vertex="1">
+          <mxGeometry height="48" width="44" x="488" y="54" as="geometry" />
+        </mxCell>
+        <mxCell id="v6" parent="1" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;fontSize=12;fontStyle=1;verticalLabelPosition=bottom;verticalAlign=top;" value="Evento" vertex="1">
+          <mxGeometry height="44" width="44" x="688" y="56" as="geometry" />
+        </mxCell>
+        <mxCell id="v7" parent="1" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;fontSize=12;fontStyle=1;verticalLabelPosition=bottom;verticalAlign=top;" value="Reserva" vertex="1">
+          <mxGeometry height="44" width="44" x="888" y="56" as="geometry" />
+        </mxCell>
+        <mxCell id="e8" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;strokeColor=#888888;strokeWidth=1.2;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="142" as="sourcePoint" />
+            <mxPoint x="110" y="773" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e9" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;strokeColor=#888888;strokeWidth=1.2;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="142" as="sourcePoint" />
+            <mxPoint x="310" y="773" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e10" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;strokeColor=#888888;strokeWidth=1.2;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="142" as="sourcePoint" />
+            <mxPoint x="510" y="773" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e11" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;strokeColor=#888888;strokeWidth=1.2;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="710" y="142" as="sourcePoint" />
+            <mxPoint x="710" y="773" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e12" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;strokeColor=#888888;strokeWidth=1.2;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="910" y="142" as="sourcePoint" />
+            <mxPoint x="910" y="773" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v13" parent="1" style="rounded=0;html=1;fillColor=#dae8fc;strokeColor=#333333;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="510" width="12" x="104" y="209" as="geometry" />
+        </mxCell>
+        <mxCell id="v14" parent="1" style="rounded=0;html=1;fillColor=#dae8fc;strokeColor=#333333;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="510" width="12" x="304" y="209" as="geometry" />
+        </mxCell>
+        <mxCell id="v15" parent="1" style="rounded=0;html=1;fillColor=#dae8fc;strokeColor=#333333;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="394" width="12" x="504" y="267" as="geometry" />
+        </mxCell>
+        <mxCell id="v16" parent="1" style="rounded=0;html=1;fillColor=#dae8fc;strokeColor=#333333;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="78" width="12" x="704" y="325" as="geometry" />
+        </mxCell>
+        <mxCell id="v17" parent="1" style="rounded=0;html=1;fillColor=#dae8fc;strokeColor=#333333;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="78" width="12" x="904" y="441" as="geometry" />
+        </mxCell>
+        <mxCell id="v18" parent="1" style="rounded=0;html=1;fillColor=#dae8fc;strokeColor=#333333;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="26" width="12" x="512" y="563" as="geometry" />
+        </mxCell>
+        <mxCell id="e19" edge="1" parent="1" style="endArrow=block;endFill=1;html=1;rounded=0;strokeWidth=1.5;strokeColor=#1f3a5f;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="116" y="215" as="sourcePoint" />
+            <mxPoint x="304" y="215" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;spacing=2;fillColor=#ffffff;" value="&lt;b&gt;1:&lt;/b&gt; Seleccionar el evento para consultar cupos" vertex="1">
+          <mxGeometry height="30" width="174" x="123" y="183" as="geometry" />
+        </mxCell>
+        <mxCell id="e21" edge="1" parent="1" style="endArrow=block;endFill=1;html=1;rounded=0;strokeWidth=1.5;strokeColor=#1f3a5f;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="316" y="273" as="sourcePoint" />
+            <mxPoint x="504" y="273" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;spacing=2;fillColor=#ffffff;" value="&lt;b&gt;2:&lt;/b&gt; Solicitar cálculo de disponibilidad" vertex="1">
+          <mxGeometry height="30" width="174" x="323" y="241" as="geometry" />
+        </mxCell>
+        <mxCell id="e23" edge="1" parent="1" style="endArrow=block;endFill=1;html=1;rounded=0;strokeWidth=1.5;strokeColor=#1f3a5f;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="516" y="331" as="sourcePoint" />
+            <mxPoint x="704" y="331" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;spacing=2;fillColor=#ffffff;" value="&lt;b&gt;3:&lt;/b&gt; Solicitar aforo y cupos bloqueados" vertex="1">
+          <mxGeometry height="30" width="174" x="523" y="299" as="geometry" />
+        </mxCell>
+        <mxCell id="e25" edge="1" parent="1" style="endArrow=open;endFill=0;dashed=1;html=1;rounded=0;strokeWidth=1.3;strokeColor=#1f3a5f;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="704" y="389" as="sourcePoint" />
+            <mxPoint x="516" y="389" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v26" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;spacing=2;fillColor=#ffffff;" value="&lt;b&gt;4:&lt;/b&gt; Devolver aforo y bloqueados (120 y 5)" vertex="1">
+          <mxGeometry height="30" width="174" x="523" y="357" as="geometry" />
+        </mxCell>
+        <mxCell id="e27" edge="1" parent="1" style="endArrow=block;endFill=1;html=1;rounded=0;strokeWidth=1.5;strokeColor=#1f3a5f;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="516" y="447" as="sourcePoint" />
+            <mxPoint x="904" y="447" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v28" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;spacing=2;fillColor=#ffffff;" value="&lt;b&gt;5:&lt;/b&gt; Solicitar reservas confirmadas y pendientes vigentes" vertex="1">
+          <mxGeometry height="20" width="332.4" x="543.8" y="425" as="geometry" />
+        </mxCell>
+        <mxCell id="e29" edge="1" parent="1" style="endArrow=open;endFill=0;dashed=1;html=1;rounded=0;strokeWidth=1.3;strokeColor=#1f3a5f;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="904" y="505" as="sourcePoint" />
+            <mxPoint x="516" y="505" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v30" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;spacing=2;fillColor=#ffffff;" value="&lt;b&gt;6:&lt;/b&gt; Devolver confirmadas y pendientes (83 y 12)" vertex="1">
+          <mxGeometry height="20" width="281.1" x="569.5" y="483" as="geometry" />
+        </mxCell>
+        <mxCell id="e31" edge="1" parent="1" style="endArrow=block;endFill=1;html=1;rounded=0;strokeWidth=1.5;strokeColor=#1f3a5f;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="563" />
+              <mxPoint x="560" y="589" />
+            </Array>
+            <mxPoint x="524" y="563" as="sourcePoint" />
+            <mxPoint x="524" y="589" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v32" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;spacing=2;" value="&lt;b&gt;7:&lt;/b&gt; Calcular cupos disponibles" vertex="1">
+          <mxGeometry height="34" width="130" x="566" y="559" as="geometry" />
+        </mxCell>
+        <mxCell id="e33" edge="1" parent="1" style="endArrow=open;endFill=0;dashed=1;html=1;rounded=0;strokeWidth=1.3;strokeColor=#1f3a5f;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="504" y="647" as="sourcePoint" />
+            <mxPoint x="316" y="647" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v34" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;spacing=2;fillColor=#ffffff;" value="&lt;b&gt;8:&lt;/b&gt; Devolver el resultado a la pantalla" vertex="1">
+          <mxGeometry height="30" width="174" x="323" y="615" as="geometry" />
+        </mxCell>
+        <mxCell id="e35" edge="1" parent="1" style="endArrow=open;endFill=0;dashed=1;html=1;rounded=0;strokeWidth=1.3;strokeColor=#1f3a5f;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="304" y="705" as="sourcePoint" />
+            <mxPoint x="116" y="705" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v36" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;spacing=2;fillColor=#ffffff;" value="&lt;b&gt;9:&lt;/b&gt; Mostrar los cupos disponibles (20)" vertex="1">
+          <mxGeometry height="30" width="174" x="123" y="673" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

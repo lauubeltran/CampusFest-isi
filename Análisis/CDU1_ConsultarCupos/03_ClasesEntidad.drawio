@@ -1,0 +1,37 @@
+<mxfile host="Electron" agent="Claude">
+  <diagram id="Clases_entidad" name="Clases entidad">
+    <mxGraphModel dx="940" dy="535" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="860" pageHeight="530" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="k3" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=44;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#6c8ebf;fontSize=13;" value="Evento" vertex="1">
+          <mxGeometry height="246" width="310" x="60" y="112" as="geometry" />
+        </mxCell>
+        <mxCell id="v4" parent="k3" style="text;strokeColor=none;fillColor=#ffffff;align=left;verticalAlign=top;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;whiteSpace=wrap;html=1;fontSize=11;fontStyle=0;" value="- idEvento: String&lt;br&gt;- nombre: String&lt;br&gt;- tipo: String&lt;br&gt;- descripcion: String&lt;br&gt;- fechaHora: DateTime&lt;br&gt;- lugar: String&lt;br&gt;- aforo: int&lt;br&gt;- cuposBloqueados: int&lt;br&gt;- fechaHoraUltimaModificacion: DateTime" vertex="1">
+          <mxGeometry height="136" width="310" y="44" as="geometry" />
+        </mxCell>
+        <mxCell id="v5" parent="k3" style="text;strokeColor=none;fillColor=#ffffff;align=left;verticalAlign=top;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;whiteSpace=wrap;html=1;fontSize=11;fontStyle=0;strokeColor=#6c8ebf;" value="+ listarDisponibles(): List&amp;lt;Evento&amp;gt;&lt;br&gt;+ obtenerInformacion(): Evento&lt;br&gt;+ obtenerAforo(): int&lt;br&gt;+ obtenerCuposBloqueados(): int" vertex="1">
+          <mxGeometry height="66" width="310" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="k6" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=44;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#6c8ebf;fontSize=13;" value="Reserva" vertex="1">
+          <mxGeometry height="274" width="310" x="490" y="98" as="geometry" />
+        </mxCell>
+        <mxCell id="v7" parent="k6" style="text;strokeColor=none;fillColor=#ffffff;align=left;verticalAlign=top;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;whiteSpace=wrap;html=1;fontSize=11;fontStyle=0;" value="- codigoReserva: String&lt;br&gt;- estado: Estado&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;{Pendiente, Confirmada, Cancelada, Vencida}&lt;br&gt;- fechaHoraCreacion: DateTime&lt;br&gt;- fechaHoraVencimiento: DateTime&lt;br&gt;- codigoQR: String" vertex="1">
+          <mxGeometry height="94" width="310" y="44" as="geometry" />
+        </mxCell>
+        <mxCell id="v8" parent="k6" style="text;strokeColor=none;fillColor=#ffffff;align=left;verticalAlign=top;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;whiteSpace=wrap;html=1;fontSize=11;fontStyle=0;strokeColor=#6c8ebf;" value="+ crear(codEstudiante, codEvento): Reserva&lt;br&gt;+ confirmar(): void&lt;br&gt;+ cancelar(): void&lt;br&gt;+ vencer(): void&lt;br&gt;+ estaVigente(): boolean&lt;br&gt;+ validarQR(codigoQR): boolean&lt;br&gt;+ contarConfirmadas(codEvento): int&lt;br&gt;+ contarPendientesVigentes(codEvento): int&lt;br&gt;+ listarPorEvento(codEvento): List&amp;lt;Reserva&amp;gt;" vertex="1">
+          <mxGeometry height="136" width="310" y="138" as="geometry" />
+        </mxCell>
+        <mxCell id="e9" edge="1" parent="1" source="k3" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;strokeColor=#333333;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="k6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;spacing=2;fontStyle=1;" value="1" vertex="1">
+          <mxGeometry height="20" width="44" x="374" y="211" as="geometry" />
+        </mxCell>
+        <mxCell id="v12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;fontSize=11;spacing=2;fontStyle=1;" value="0..*" vertex="1">
+          <mxGeometry height="20" width="44" x="442" y="211" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
