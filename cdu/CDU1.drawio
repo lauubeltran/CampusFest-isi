@@ -1,0 +1,40 @@
+<mxfile host="Electron">
+  <diagram name="Página-1" id="qm_jNi8h3xuzRplWEQW1">
+    <mxGraphModel dx="813" dy="687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WscncBuc6kU5CSqAYy7m-28" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;" value="" vertex="1">
+          <mxGeometry height="200" width="500" x="850" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="WscncBuc6kU5CSqAYy7m-29" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="CampusFest&lt;div&gt;(uso)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="110" x="1045" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="WscncBuc6kU5CSqAYy7m-30" edge="1" parent="1" source="WscncBuc6kU5CSqAYy7m-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;endArrow=open;endFill=0;dashed=1;" target="WscncBuc6kU5CSqAYy7m-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WscncBuc6kU5CSqAYy7m-31" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="" vertex="1">
+          <mxGeometry height="95" width="165" x="880" y="472.5" as="geometry" />
+        </mxCell>
+        <mxCell id="WscncBuc6kU5CSqAYy7m-32" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Consultar cupos" vertex="1">
+          <mxGeometry height="60" width="110" x="907.5" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="WscncBuc6kU5CSqAYy7m-33" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="" vertex="1">
+          <mxGeometry height="95" width="165" x="1155" y="472.5" as="geometry" />
+        </mxCell>
+        <mxCell id="WscncBuc6kU5CSqAYy7m-34" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Consultar evento" vertex="1">
+          <mxGeometry height="60" width="110" x="1182.5" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="WscncBuc6kU5CSqAYy7m-35" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" vertex="1">
+          <mxGeometry height="30" width="90" x="1055" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="WscncBuc6kU5CSqAYy7m-36" edge="1" parent="1" source="WscncBuc6kU5CSqAYy7m-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;endArrow=none;endFill=0;" target="WscncBuc6kU5CSqAYy7m-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WscncBuc6kU5CSqAYy7m-37" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelPerimeter=1;" value="Estudiante" vertex="1">
+          <mxGeometry height="120" width="60" x="730" y="460" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
